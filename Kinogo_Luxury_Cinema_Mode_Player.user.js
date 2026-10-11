@@ -13,8 +13,8 @@
 // @match        *://*/*
 // @grant        GM_addStyle
 // @run-at       document-start
-// @updateURL    https://github.com/SevenArth93/Kinogo_Luxury_Cinema_Mode_Player.user.js
-// @downloadURL  https://github.com/SevenArth93/Kinogo_Luxury_Cinema_Mode_Player.user.js
+// @updateURL    https://github.com/SevenArth93/Kinogo_Cinema-Mode-Player/raw/refs/heads/main/Kinogo_Luxury_Cinema_Mode_Player.user.js
+// @downloadURL  https://github.com/SevenArth93/Kinogo_Cinema-Mode-Player/raw/refs/heads/main/Kinogo_Luxury_Cinema_Mode_Player.user.js
 // ==/UserScript==
 
 (function() {
