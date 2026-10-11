@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Kinogo Luxury Cinema Mode Player v15.6.15
+// @name         Kinogo Luxury Cinema Mode Player v1.0.15.6.16
 // @namespace    http://tampermonkey.net
-// @version      15.6.15
+// @version      1.0.15.6.16
 // @description  Cinema Mode + Вертикальный свернутый плеер + Исправление Raw Gist
 // @author       SevenArth/G
 // @match        http://*.kinogo.luxury/*
