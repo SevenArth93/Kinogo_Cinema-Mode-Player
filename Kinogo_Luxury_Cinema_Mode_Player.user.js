@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Kinogo Luxury Cinema Mode Player v15.6.14
+// @name         Kinogo Luxury Cinema Mode Player v15.6.15
 // @namespace    http://tampermonkey.net
-// @version      15.6.14
-// @description  Cinema Mode + Вертикальный свернутый плеер + Обновление из облака
+// @version      15.6.15
+// @description  Cinema Mode + Вертикальный свернутый плеер + Исправление Raw Gist
 // @author       SevenArth/G
 // @match        http://*.kinogo.luxury/*
 // @match        https://*.kinogo.luxury/*
@@ -13,8 +13,8 @@
 // @match        *://*/*
 // @grant        GM_addStyle
 // @run-at       document-start
-// @updateURL    https://cloud.mail.ru/public/h2rw/VnuTJWSz3
-// @downloadURL  https://cloud.mail.ru/public/h2rw/VnuTJWSz3
+// @updateURL    https://githubusercontent.com
+// @downloadURL  https://githubusercontent.com
 // ==/UserScript==
 
 (function() {
@@ -123,7 +123,6 @@
     let isCollapsed = false;
     let hideTimeout;
 
-    // СТИЛИ: Изменены пропорции для вертикального свернутого состояния (30px на 130px)
     const css = `
         .video-container.kg-video-container,
         div.video-container {
@@ -143,7 +142,6 @@
             border-bottom: none !important;
         }
 
-        /* ИСПРАВЛЕНО: Ширина и высота свернутого состояния поменялись местами */
         .video-container.kg-video-container.kg-collapsed-state {
             width: 30px !important;
             height: 130px !important;
@@ -242,6 +240,7 @@
         }
         .kg-edge-hover .kg-autostart-btn.active { background: rgba(46, 204, 113, 0.6) !important; }
         .kg-edge-hover .kg-autostart-btn.inactive { background: rgba(231, 76, 60, 0.6) !important; }
+
 .kg-lclick-close-btn:hover { opacity: 1 !important; background: rgba(70, 70, 70, 0.8) !important; }
 .kg-collapsed-state .kg-lclick-close-btn,
 .kg-collapsed-state .kg-autostart-btn { display: none !important; }
