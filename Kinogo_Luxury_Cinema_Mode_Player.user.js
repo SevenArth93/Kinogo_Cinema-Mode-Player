@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Kinogo Luxury Cinema Mode Player v1.0.15.6.17.1
+// @name         Kinogo Luxury Cinema Mode Player v1.0.15.6.18
 // @namespace    http://tampermonkey.net
-// @version      1.0.15.6.17.1
+// @version      1.0.15.6.18
 // @description  Cinema Mode + Двухфазный автостарт (Фикс автопродолжения на Win7) с 2,5 до 1,2 сек
 // @author       SevenArth/G
 // @match        http://*.kinogo.luxury/*
